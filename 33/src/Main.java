@@ -12,7 +12,6 @@ public class Main {
     public static int[] rotateArray(int[] array, int positions) {
         int n = array.length;
         int[] rotated = new int[n];
-        
         positions = positions % n;
 
         for (int i = 0; i < n; i++) {
